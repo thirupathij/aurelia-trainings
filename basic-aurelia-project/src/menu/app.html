@@ -1,0 +1,16 @@
+<template>
+	<require from="./menu.html" ></require>
+	<h1>${topText}</h1>
+	<menu></menu>
+	<h2>${bottomText}</h2>
+
+	<input type="text" name="testValue" value.bind="testValue">
+	<span>${testValue}</span>
+
+	<input type="checkbox" name="isChecked" checked.bind="isChecked">
+	<span>${isChecked}</span>
+
+	<input type="radio" name="isRdChecked" checked.bind="isRdChecked">
+	<span>${isRdChecked}</span>
+
+</template>
